@@ -1,0 +1,54 @@
+{
+  "name": "emailshortcuts",
+  "title": "Email Shortcuts",
+  "id": "jid1-ECJaqGGC5t8KqH@jetpack",
+  "description": "Shortcuts of Top Email Providers",
+  "author": "Andy Portmen",
+  "license": "MPL 2.0",
+  "version": "0.1.0",
+  "main": "common",
+  "permissions": {"private-browsing": true},
+  "preferences": [
+    {
+      "name": "gmail",
+      "title": "Gmail toolbar icon:",
+      "description": "The ease and simplicity of Gmail, available across all your devices. Gmail's inbox helps you stay organized by sorting your mail by type.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "yahoo",
+      "title": "Yahoo Mail toolbar icon:",
+      "description": "Best in class Yahoo Mail, breaking local, national and global news, finance, sports, music, movies and more.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "microsoft",
+      "title": "Live Mail toolbar icon:",
+      "description": "Outlook.com is free modern email service from Microsoft.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "aol",
+      "title": "AOL toolbar icon:",
+      "description": "Get a free email address from AOL now! You no longer need to be an AOL member to take advantage of great AOL Mail features such as industry-leading spam and many more.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "icloud",
+      "title": "iCloud toolbar icon:",
+      "description": "iCloud Mail is the free email service from Apple with ample storage, IMAP access and an elegantly functional web application.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "mail",
+      "title": "Mail.com toolbar icon:",
+      "description": "Get free Email accounts: Unlimited storage, mobile device support, modern spam protection and webmail access - freemail by mail.com.",
+      "type": "bool",
+      "value": true
+    }]
+}
