@@ -1,21 +1,18 @@
 {
   "name": "Email Shortcuts",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "manifest_version": 2,
   "short_name": "emailshortcuts",
   "description": "Shortcuts of Top Email Providers",
-  "author": "Andy Portmen",
-  "permissions": [
-    "tabs", 
-    "storage"
-  ],
+  "author": "Sarah Avilov",
+  "permissions": ["storage", "tabs"],
   "browser_action": {
     "default_icon": "data/icon48.png",
     "default_popup": "data/popup/popup.html",
     "default_title": "Email Shortcuts"
   },
   "background": {
-    "scripts": ["lib/task.js", "lib/chrome.js", "lib/common.js"]
+    "scripts": ["lib/chrome.js", "lib/common.js"]
   },
   "icons": {
     "16": "data/icon16.png",
